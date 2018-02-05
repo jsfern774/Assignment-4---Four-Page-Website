@@ -281,12 +281,6 @@ NAVIGATION MOBILE STYLES
     display: none;
 }
 
-/* .mobile-nav .logo-container {
-    display: inline-block;
-    margin-left: -4px;
-    width: calc(100% - 80px)
-} */
-
 .mobile-nav button {
     background: transparent;
     border: none;
@@ -413,14 +407,6 @@ footer {
 
 }
 
-/* .col-12 {
-  	height: 200px;
-}
-
-.row {
-  	height: 200px;
-} */
-
 footer .logo {
     margin-bottom: 20px;
 }
@@ -462,7 +448,7 @@ footer a:hover, a:focus, a:active {
 }
 
 footer .desktop-nav {
-    height: 450px;
+    height: 150px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -511,11 +497,6 @@ HERO STYLES
         url("../img/airship.jpg");
     background-position: center;
 }
-
-/* .mobile-nav .hero-button {
-    margin-right: 45%;
-    text-decoration: none;
-} */
 
 .mobile-nav .hero-text-container {
     margin-bottom: calc(72vh - 180px);
@@ -778,6 +759,7 @@ TEAM STYLES
 
 .mobile-nav .team-card {
     width: 95%;
+    max-height: 500px;
     margin-bottom: 5%;
     display: inline-block;
     text-align: center;
@@ -791,7 +773,7 @@ TEAM STYLES
 }
 
 .mobile-nav .team-container {
-    height: 1900px;
+    height: 1700px;
     padding-top: 20px;
     text-align: center;
   	background: #F2F2F2;
@@ -993,6 +975,7 @@ textarea {
 .mobile-nav textarea {
 	width: 95%;
 	margin-left: 0%;
+  height: 170px;
 }
 
 textarea:focus {
