@@ -95,6 +95,7 @@ a:active {
 	background: transparent;
     color: #006099;
     border-color: #006099;
+	text-transform: uppercase;
 }
 
 ul {
